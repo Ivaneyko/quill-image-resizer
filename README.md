@@ -1,13 +1,13 @@
-# quill-image-resizer
+# @ivaneyko/quill-image-resizer
 
 A module for the Quill rich text editor that provides image resizing functionality.
 
 ## Installation
 
 ```bash
-npm install quill-image-resizer
+npm install @ivaneyko/quill-image-resizer
 # or
-yarn add quill-image-resizer
+yarn add @ivaneyko/quill-image-resizer
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ To use this module with your Quill editor, you'll need to register it and includ
 
 ```javascript
 import Quill from 'quill';
-import ImageResizer from 'quill-image-resizer'; // Assuming you've installed it
+import ImageResizer from '@ivaneyko/quill-image-resizer'; // Assuming you've installed it
 
 // Register the module with Quill
 Quill.register('modules/imageResizer', ImageResizer);
