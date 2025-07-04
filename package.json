@@ -1,6 +1,6 @@
 {
   "name": "@ivaneyko/quill-image-resizer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Image resize module for Quill editor with theme-ready structure.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
