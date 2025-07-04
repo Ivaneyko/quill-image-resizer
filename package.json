@@ -1,0 +1,31 @@
+{
+  "name": "quill-image-resizer",
+  "version": "0.0.1",
+  "description": "Image resize module for Quill editor with theme-ready structure.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "quill",
+    "image",
+    "resize",
+    "theme",
+    "editor"
+  ],
+  "author": "Ivaneyko Serhiy <ivaneyko.serhiy@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "vite build && tsc",
+    "dev": "concurrently \"tsc --watch\" \"vite\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "quill": "^2.0.3"
+  }
+}

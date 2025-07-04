@@ -1,0 +1,23 @@
+# Node
+node_modules/
+dist/
+
+# Build output
+*.log
+*.tsbuildinfo
+
+# IDEs
+.vscode/
+.idea/
+
+# Vite
+*.env.local
+*.env.*
+!.env.example
+
+# Demo server cache
+demo/.vite/
+
+# OS
+.DS_Store
+Thumbs.db
